@@ -30,7 +30,7 @@ if __name__ == '__main__':
     print "XとYの積集合"
     print X.intersection(Y)
     print "XとYの差集合"
-    print X.difference(Y)
+    print X.symmetric_difference(Y)
     
     print "'se'というbi-gramがXに含まれるかどうか"
     print ('s','e') in X
