@@ -23,3 +23,8 @@ def main():
 
 if __name__ == '__main__':
 	main()
+
+"""
+cut -f 1 hightemp.txt > cut_col1.txt
+cut -f 2 hightemp.txt > cut_col2.txt
+"""
