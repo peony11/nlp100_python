@@ -1,3 +1,4 @@
+#coding: utf-8
 """
 06. 集合
 
@@ -24,11 +25,15 @@ if __name__ == '__main__':
     X = ngram(text1, 2, "char")
     Y = ngram(text2, 2, "char")
     
-    print X.union(Y) #XとYの和集合
-    print X.intersection(Y) #積集合
-    print X.difference(Y) #差集合
+    print "XとYの和集合"
+    print X.union(Y)
+    print "XとYの積集合"
+    print X.intersection(Y)
+    print "XとYの差集合"
+    print X.difference(Y)
     
-    #'se'というbi-gramがXおよびYに含まれるかどうか
+    print "'se'というbi-gramがXに含まれるかどうか"
     print ('s','e') in X
+    print "'se'というbi-gramがYに含まれるかどうか"
     print ('s','e') in Y
     
