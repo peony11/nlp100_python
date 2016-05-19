@@ -1,3 +1,4 @@
+#coding:utf-8
 """
 04. 元素記号
 
@@ -9,7 +10,7 @@ word_index = [1, 5, 6, 7, 8, 9, 15, 16, 19]
 dic = {}
 for (i, word) in enumerate(words):
     if i+1 in word_index:
-        dic[word[0]] = i
+        dic[word[0]] = i+1
     else:
-        dic[word[0:2]] = i
+        dic[word[0:2]] = i+1
 print dic
